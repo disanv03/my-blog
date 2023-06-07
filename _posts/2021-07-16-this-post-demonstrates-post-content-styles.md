@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This post demonstrates post content styles
+title: post de demonstration. 
 ---
 
 Lorem ipsum dolor sit amet, **BOLD** adipiscing elit. Fusce bibendum neque eget nunc mattis eu _ITALICS_ enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.

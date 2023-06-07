@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the navbar)
-name: brutalist-blog
+name: disanv-blog
 
 # Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
-title: brutalist-blog
+title: disanv-blog
 
 # Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
 # Avatar for light mode site
@@ -42,13 +42,11 @@ permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: mkie0125@gmail.com
+  email: heddisanv@gmail.com
   facebook:
-  github: andrewhwanpark/brutalist-blog
-  instagram: andrewhwanpark
-  linkedin: andrewhwanpark
+  github: disanv03/
+  linkedin: gweno-l-f-295996249/
   rss: # just type anything here for a working RSS icon
-  twitter: andrewhwanpark
 
 plugins:
   - jekyll-seo-tag
