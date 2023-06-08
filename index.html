@@ -15,7 +15,7 @@ découvrir mes projets. N'hésitez pas à consulter le post "Bienvenue" ci-desso
   {% assign date = currDate %} {% endif %}
   <div class="archive-item">
     <span class="post-date archive-date fs-4"
-      >{{ post.date | date: "%B %d, %Y" }}</span
+      >{% include date_french.html var=post.date %}</span
     >
     <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
       >{{ post.title }}</a

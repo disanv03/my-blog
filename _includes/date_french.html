@@ -1,0 +1,18 @@
+{% assign m = include.var | date: "%-m" %}
+{% assign d = include.var | date: "%-d" %}
+{% assign y = include.var | date: "%Y" %}
+
+{% case m %}
+  {% when '1' %}{{ d }} janvier {{ y }}
+  {% when '2' %}{{ d }} février {{ y }}
+  {% when '3' %}{{ d }} mars {{ y }}
+  {% when '4' %}{{ d }} avril {{ y }}
+  {% when '5' %}{{ d }} mai {{ y }}
+  {% when '6' %}{{ d }} juin {{ y }}
+  {% when '7' %}{{ d }} juillet {{ y }}
+  {% when '8' %}{{ d }} août {{ y }}
+  {% when '9' %}{{ d }} septembre {{ y }}
+  {% when '10' %}{{ d }} octobre {{ y }}
+  {% when '11' %}{{ d }} novembre {{ y }}
+  {% when '12' %}{{ d }} décembre {{ y }}
+{% endcase %}
