@@ -14,7 +14,7 @@ Ce site est une vitrine de mon parcours en développement web et de mes réalisa
 
 J'espère que ce site vous donnera un aperçu de ce que je peux apporter à vos projets. Et si vous avez des questions ou si vous souhaitez discuter d'une idée ou d'un projet, n'hésitez pas à me contacter. Je lis attentivement chaque email que je reçois et je serais ravi de discuter avec vous. Vous trouverez d'autres moyens de me contacter en bas de la page.
 
-Encore une fois, merci de votre visite. J'ai hâte de partager mon travail avec vous et j'espère avoir l'occasion de travailler ensemble dans le futur.
+Encore une fois, merci de votre visite. J'ai hâte de partager mon travail avec vous.
 
 Cordialement,
 Gweno aka disanv
