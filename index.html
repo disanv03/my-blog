@@ -9,8 +9,8 @@ découvrir mes projets. N'hésitez pas à consulter le post "Bienvenue" ci-desso
 
 
 <div class="archive">
-  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
-  if currDate != date %}
+  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} 
+  {% if currDate != date %}
   <h1 class="archive-year">{{ currDate }}</h1>
   {% assign date = currDate %} {% endif %}
   <div class="archive-item">
