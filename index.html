@@ -14,12 +14,8 @@ découvrir mes projets. N'hésitez pas à consulter le post "Bienvenue" ci-desso
   <h1 class="archive-year">{{ currDate }}</h1>
   {% assign date = currDate %} {% endif %}
   <div class="archive-item">
-    <span class="post-date archive-date fs-4"
-      >{% include date_french.html var=post.date %}</span
-    >
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
-      >{{ post.title }}</a
-    >
+    <span class="post-date archive-date fs-4">{% include date_french.html var=post.date %}</span>
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
   </div>
   {% endfor %}
 </div>
