@@ -6,6 +6,7 @@
 
 For more information:
 https://github.com/andrewhwanpark/brutalist-blog
+
 Demo: https://andrewhwanpark.github.io/brutalist-blog/
 
 
