@@ -6,7 +6,7 @@ tags: project
 
 ---
 
-![ti-skorn]({{site.baseurl}}/assets/images/ti-skorn-thumb.png)
+[![ti-skorn]({{site.baseurl}}/assets/images/ti-skorn-thumb.png)](http://ty-skorn.disanvland.ovh)
 
 Au cours de la formation DWWM (Développeur web et web mobile), lors de l'apprentissage du PHP, nous avons eu un site vitrine à développer avec une gestion de panier.
 
