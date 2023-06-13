@@ -11,12 +11,11 @@ tags: project
   </a>
   <div style="margin-left: 10px;">
   
+    Un jeu de quiz interactif, développé en React Native. Il utilise l'API Open Trivia Database pour récupérer des questions à choix multiples, et intègre un `timer` pour ajouter un défi supplémentaire.
+
+    Ce projet est une belle illustration d'utilisation des hooks React `useState` et `useEffect` pour le gestion d'état et la récupération des données.
+
+    [Lien vers le code source](https://github.com/disanv03/qcm_reactNative)
     
   </div>
 </div>
-
-Un jeu de quiz interactif, développé en React Native. Il utilise l'API Open Trivia Database pour récupérer des questions à choix multiples, et intègre une `timer` pour ajouter un défi supplémentaire.
-
-Ce projet est une belle illustration d'utilisation des hooks React `useState` et `useEffect` pour le gestion d'état et la récupération des données.
-
-[Lien vers le code source](https://github.com/disanv03/qcm_reactNative)
