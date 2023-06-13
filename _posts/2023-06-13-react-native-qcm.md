@@ -7,7 +7,7 @@ tags: project
 
 <div style="display: flex;">
   <a href="https://github.com/disanv03/qcm_reactNative">
-    <img src="{{site.baseurl}}/assets/images/qcm-react.jpg" alt="QCM App Screenshot" style="width: 30%; height: auto;">
+    <img src="{{site.baseurl}}/assets/images/qcm-react.jpg" alt="QCM App Screenshot" style="width: 200px; height: auto;">
   </a>
   <div style="margin-left: 10px;">
   
