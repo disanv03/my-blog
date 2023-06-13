@@ -25,9 +25,6 @@ tags: project
 |---|---|
 | ![QCM App Screenshot]({{site.baseurl}}/assets/images/qcm-react.jpg) | <span style="font-size: 20px;">Un jeu de quiz interactif, développé en React Native. Il utilise l'API Open Trivia Database pour récupérer des questions à choix multiples, et intègre une `timer` pour ajouter un défi supplémentaire.</span> <br><br> <span style="font-size: 20px;">Ce projet est une belle illustration d'utilisation des hooks React `useState` et `useEffect` pour le gestion d'état et la récupération des données.</span> <br><br> [Lien vers le code source](https://github.com/disanv03/qcm_reactNative) |
 
-| | |
-|---|---|
-| ![QCM App Screenshot]({{site.baseurl}}/assets/images/qcm-react.jpg) | <span style="font-size: 20px;">Un jeu de quiz interactif, développé en React Native. Il utilise l'API Open Trivia Database pour récupérer des questions à choix multiples, et intègre une `timer` pour ajouter un défi supplémentaire.</span> <br><br> <span style="font-size: 20px;">Ce projet est une belle illustration d'utilisation des hooks React `useState` et `useEffect` pour le gestion d'état et la récupération des données.</span> <br><br> [Lien vers le code source](https://github.com/disanv03/qcm_reactNative) |
 
 ```javascript
 // Extrait de code pour récupérer des données à partir d'une API
@@ -37,3 +34,4 @@ useEffect(() => {
     .then(data => setQuestion(data.results))
     .catch((e) => console.log("Error: " + e));
 }, []);
+```
