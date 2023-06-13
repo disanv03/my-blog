@@ -1,0 +1,22 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+Découvez ci dessous une sélection de mes projects informatiques les plus récents et les plus passionnants.
+
+<h1>Portfolio</h1>
+
+<div class="portfolio-grid">
+    {% for post in site.posts %}
+      <div class="portfolio-item">
+        <a href="{{ post.url }}">
+          <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }}" />
+          <div class="portfolio-caption">
+            <h3>{{ post.title }}</h3>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+</div>

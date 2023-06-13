@@ -1,0 +1,20 @@
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+  }
+  
+  .portfolio-item {
+    overflow: hidden;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .portfolio-caption {
+    text-align: center;
+    padding: 1em 0;
+  }
+  
