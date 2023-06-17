@@ -1,4 +1,4 @@
-# brutalist-blog
+# Personal Blog from andrewhwanpark brutalist-blog
 
 ## Introduction
 
