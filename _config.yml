@@ -40,6 +40,8 @@ google_analytics:
 
 permalink: /:year/:month/:day/:title/
 
+host: 0.0.0.0
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: heddisanv@gmail.com
