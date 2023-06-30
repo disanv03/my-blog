@@ -5,7 +5,9 @@ permalink: /portfolio/
 ---
 
 Découvez ci dessous une sélection de mes projects informatiques:
+<br>
 
+<<<<<<< HEAD
 
 
 
@@ -28,3 +30,19 @@ Découvez ci dessous une sélection de mes projects informatiques:
     {% endif %}
   {% endfor %}
 </div>
+=======
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+    {% for post in site.posts %}
+      {% if post.tags contains 'project' %}
+        <div style="text-align: center; margin: 10px;">
+          <figure style="display: inline-block;">
+          <a href="{{ post.url }}">
+            <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }}" height="256" width="256" style="margin-top: 10px;" />
+          </a>
+          <figcaption><em>{{ post.title }}</em></figcaption>
+          </figure>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+>>>>>>> ee8592b (new midstory post and some general update)
