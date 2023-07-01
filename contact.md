@@ -11,7 +11,7 @@ Vous trouverez d'autres moyens de me contacter en bas de page.
 
 [heddisanv@gmail.com](mailto:heddisanv@gmail.com)
 
-[Consulter Cv en ligne](http://disanvland.ovh/cv-web-dev)
+[CV en ligne](http://disanvland.ovh/cv-web-dev)
 
 <!-- <form action="" method="POST">
     <label for="name">Name:</label>
