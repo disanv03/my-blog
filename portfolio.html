@@ -7,30 +7,6 @@ permalink: /portfolio/
 Découvez ci dessous une sélection de mes projects informatiques:
 <br>
 
-<<<<<<< HEAD
-
-
-
-<div class="row">
-  {% for post in site.posts %}
-    {% if post.tags contains 'project' %}
-      <div class="column-4u">
-        <section class="box">
-          <a href="{{ post.url }}" class="image featured">
-            <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }}" />
-          </a>
-          <header>
-            <h3>{{ post.title }}</h3>
-          </header>
-          <footer>
-            <a href="{{ post.url }}">Find out more</a>
-          </footer>
-        </section>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-=======
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
     {% for post in site.posts %}
       {% if post.tags contains 'project' %}
@@ -45,4 +21,3 @@ Découvez ci dessous une sélection de mes projects informatiques:
       {% endif %}
     {% endfor %}
   </div>
->>>>>>> ee8592b (new midstory post and some general update)
